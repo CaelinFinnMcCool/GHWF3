@@ -21,3 +21,7 @@ def test_two_grades():
 def test_two_equal_grades():
     grades = [10, 10]
     assert compute_hw_average(grades) == 10
+
+def test_three_grades():
+    grades = [20,40,30]
+    assert compute_hw_average(grades) == 30
